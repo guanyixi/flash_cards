@@ -1,0 +1,31 @@
+// colors
+$blue: #003887;
+$red: #BD1900;
+$ltblue: #599FD9;
+
+$dkgrey: #5D5E5E;
+$ltgrey: #E1E2E6;
+
+
+
+
+// Fonts
+
+@font-face {
+    font-family: brandon;
+    font-weight:200;
+    src: url(../assets/fonts/Brandon_thin.otf);
+}
+
+$font_serif: 'Merriweather', serif;
+$font_sans: 'Mukta Malar', sans-serif;
+$fa: FontAwesome;
+
+
+// Breaking Points
+$xsmall:400px;
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+
+

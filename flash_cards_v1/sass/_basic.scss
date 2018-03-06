@@ -1,0 +1,131 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+    background-color:$blue;
+    background-image:url(../assets/img/flag.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    min-height:100vh;
+    padding:30px 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family:$font_serif;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+p, b, li{
+
+}
+
+a{
+	text-decoration:none;
+    &:hover{
+
+    }
+}
+
+button{
+    min-height:42px;
+    border:0;
+    background-color:$red;
+    color:white;
+    font-family:$font_sans;
+    font-size:14px;
+    border-radius:0;
+    text-transform: uppercase;
+    padding:5px 20px;
+    letter-spacing: 1px;
+    transition:all 0.3s ease;
+    display: inline-block;
+    margin:25px 4px 10px;
+    &:focus{
+        outline: 0;
+    }
+    &:hover{
+        background-color:$ltblue;
+    }
+}
+
+.button-grey{
+    vertical-align: top;
+    min-height:0px;
+    background-color:$ltgrey;
+    color:$dkgrey;
+    padding:2px 0 0;
+    border-radius:50%;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color:$dkgrey;
+    &:hover{
+        background-color: $ltgrey;
+        color: $blue;
+    }
+}
+
+.container-fit{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

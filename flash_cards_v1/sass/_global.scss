@@ -1,0 +1,63 @@
+.app-container{
+    width:100%;
+    max-width:800px;
+    margin: 0 auto;
+    background-color: rgba(white, 0.95);
+    padding:8vh 50px 10vh;
+    @media(max-width:768px){
+        padding:40px 30px;
+    }
+}
+
+.text-center{
+    text-align:center;
+}
+
+#progress{
+    padding:10px 0;
+}
+
+.card{
+    padding:30px 0;
+    display: none;
+}
+
+.question, .answer, .key{
+    font-family: $font_serif;
+    vertical-align: top;
+}
+
+.question{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.answer{
+    padding:5px 0
+}
+
+.star{
+    color: $red;
+    font-size:18px;
+    padding-right:5px;
+}
+
+.key{
+    background-color:$ltgrey;
+    display: inline-block;
+    padding:2px 7px;
+    color:$dkgrey;
+    border-radius:3px;
+    margin-left:5px;
+    margin-top:2px;
+    font-size:12px;
+}
+
+.current-question{
+    display: block;
+}
+
+.highlight{
+    font-size:140%;
+    font-weight:bold;
+}
